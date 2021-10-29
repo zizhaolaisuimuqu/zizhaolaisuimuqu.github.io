@@ -13,12 +13,12 @@ banner:
 
 search:
   modal: true
-  bg_image: https://github.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/tree/hexo/zizhaolaisuimuqu.github.io/pictures/background.jpg
+  bg_image: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/pictures/background.jpg
 
 
 avatar:
   enable: true
-  url: https://github.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/tree/hexo/zizhaolaisuimuqu.github.io/pictures/avatar.jpg
+  url: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/pictures/avatar.jpg
   rounded: true
   opacity: 1
   mickey_mouse: true
