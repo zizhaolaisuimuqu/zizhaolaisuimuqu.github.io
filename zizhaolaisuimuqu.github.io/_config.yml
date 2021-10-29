@@ -102,11 +102,7 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
-
-deploy:
   type: git
   repo: https://github.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
-  branch: master # 默认使用 master 分支
+  branch: gh-pages # 默认使用 master 分支
   message: Update Hexo Static Content # 你可以自定义此次部署更新的说明
