@@ -134,7 +134,7 @@ menu:
 
 # archive
 archive:
-  last_word: 没有更多的黑历史了_(:з」∠)_
+  last_word: 我是小尾巴~~
 
 wordcloud:
   enable: true
@@ -341,16 +341,16 @@ reward:
   comment: 看在我那么可爱的份上……求求您给点儿趴……
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
-    - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
-      color: "#00A3EE"
-      icon: icon-alipay-line
-    - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
-      color: "#12B7F5"
-      icon: icon-qq-line
+#    - name: 支付宝
+#      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+#      color: "#00A3EE"
+#      icon: icon-alipay-line
+#    - name: QQ 支付
+#      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+#      color: "#12B7F5"
+#      icon: icon-qq-line
     - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      path: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/wechat pay.png
       color: "#2DC100"
       icon: icon-wechat-pay-line
     # - name: paypal
