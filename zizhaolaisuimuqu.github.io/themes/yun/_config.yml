@@ -328,7 +328,7 @@ scrollreveal:
 bg_image:
   enable: true
   url: /background4.jpg # recomend image related to your mode
-  dark: /background5.jpg
+  dark: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/background5.jpg
   # blur: 30px
   opacity: 1
 
