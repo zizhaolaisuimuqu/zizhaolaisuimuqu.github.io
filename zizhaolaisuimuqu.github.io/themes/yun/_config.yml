@@ -196,7 +196,7 @@ types:
 
 # post_card
 post_card:
-  opacity: 0.9
+  opacity: 0.65
 
 # link
 # -------
@@ -239,6 +239,7 @@ js:
 # custom your assets in head
 head:
   css:
+    fonts: https://fonts.googleapis.com/css2?family=Long+Cang&display=swap
   js:
     base:
     async:
@@ -264,7 +265,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 轻飘飘的时间——哗哗Time
+  title: 轻飘飘的时间……哗哗Time
   src: /js/ui/banner.js
   border: false
   cloud:
@@ -279,10 +280,10 @@ font:
   cdn:
     enable: true
     lib:
-      - https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap
+      - https://fonts.googleapis.com/css2?family=Long+Cang&display=swap
   serif:
-    family: "'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif"
-    weight: 900
+    family: "'Long Cang', 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif"
+    weight: 400
   sans_serif:
     family: "'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif"
     weight: 400
@@ -308,7 +309,7 @@ trianglify:
   height: 600
   # https://github.com/qrohlf/trianglify/blob/master/src/utils/colorbrewer.js
   palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
-  opacity: 0.5
+  opacity: 0.3
 
 cursor:
   enable: true
