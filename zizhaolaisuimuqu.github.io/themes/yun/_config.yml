@@ -546,7 +546,7 @@ katex:
 # plugins
 aplayer:
   global: true
-  meting: true
+  meting: false
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
     enable: true
@@ -554,16 +554,16 @@ aplayer:
     # theme: "#2980b9"
     loop: all
     order: list
-    preload: auto
+    preload: true
     volume: 0.7
     mutex: true
     lrcType: 0
-    listFolded: true
+    listFolded: false
     listMaxHeight: 340px
     audio:
-      - name: 星宿计时
-        artist: 杉田朗/洛天依
-        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+      - name: 春物
+        artist: 雪之下雪乃
+        url: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20-%20%E6%98%A5%E6%93%AC%E3%81%8D.mp3
         cover: 
     meting:
       enable: false
