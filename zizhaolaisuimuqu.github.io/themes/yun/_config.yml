@@ -554,7 +554,7 @@ aplayer:
     # theme: "#2980b9"
     loop: all
     order: list
-    preload: true
+    preload: auto
     volume: 0.7
     mutex: true
     lrcType: 0
