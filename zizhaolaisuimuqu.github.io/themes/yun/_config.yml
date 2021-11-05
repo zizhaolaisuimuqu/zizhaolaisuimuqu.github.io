@@ -224,7 +224,7 @@ lazyload:
 
 # pjax
 pjax:
-  enable: false
+  enable: true
   src: /js/pjax.js
 
 # stylesheets loaded in the <head>
@@ -240,8 +240,11 @@ js:
 head:
   css:
     fonts: https://fonts.googleapis.com/css2?family=Long+Cang&display=swap
+    aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css
   js:
     base:
+      aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
+      loadAplayer: /js/load-aplayer.js
     async:
     defer:
 
@@ -409,10 +412,10 @@ footer:
     # icp: 苏ICP备xxxxxxxx号
 
   live_time:
-    enable: false
+    enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2019-04-12T00:00:00"
+    start_time: "2021-04-12T00:00:00"
 
   # Display support
   # support:
@@ -545,18 +548,18 @@ katex:
 
 # plugins
 aplayer:
-  global: true
-  meting: false
+  global: false
+  meting: true
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
     enable: true
-    autoplay: true
+    autoplay: false
     # theme: "#2980b9"
     loop: all
     order: list
     preload: auto
     volume: 0.7
-    mutex: true
+    mutex: false
     lrcType: 0
     listFolded: false
     listMaxHeight: 340px
