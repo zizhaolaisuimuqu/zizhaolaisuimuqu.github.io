@@ -3,7 +3,7 @@ comment:
   enable: true
   icon: icon-chat-3-line
   tips:
-    - 要不要和我说些什么？
+    - 加载评论区需要给麻瓜网页施加魔法😘
   # candidates:
   #   - valine
   #   - utterances
