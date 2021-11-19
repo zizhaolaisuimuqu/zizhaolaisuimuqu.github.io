@@ -71,8 +71,8 @@ minivaline:
 
 # http://disqus.com/
 disqus:
-  enable: false
-  shortname: yunyoujun
+  enable: true
+  shortname: zizhaolaisuimuqu
   count: false
 
 # https://github.com/SukkaW/DisqusJS
