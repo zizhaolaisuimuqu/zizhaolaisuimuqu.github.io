@@ -3,9 +3,9 @@ comment:
   enable: true
   icon: icon-chat-3-line
   tips:
-    - 加载评论区需要给麻瓜网页施加魔法😘
-  # candidates:
-  #   - valine
+    - 如果评论区没加载出来……那肯定被我当饭吃了😘
+  candidates:
+    - waline
   #   - utterances
 
 # GitHub Issues Link Button
@@ -54,11 +54,12 @@ valine:
 
 # https://waline.js.org/
 waline:
-  enable: false
-  serverURL: # https://your-domain.vercel.app
-  # visitor: false
-  # display comment count
-  comment: false
+  enable: true
+  serverURL: https://reply-area-z-s-blog-fpkoos1es-zizhaolaisuimuqu.vercel.app/
+  visitor: true
+  comment: true
+  placeholder: 欢迎评论    #输入框中显示的字
+  requiredFields: ["nick"]    #必填项为昵称
 
 # MiniValine
 # More info available at https://github.com/MiniValine/MiniValine
@@ -71,7 +72,7 @@ minivaline:
 
 # http://disqus.com/
 disqus:
-  enable: true
+  enable: false
   shortname: zizhaolaisuimuqu
   count: false
 
