@@ -58,7 +58,7 @@ waline:
   serverURL: https://reply-area-z-s-blog-fpkoos1es-zizhaolaisuimuqu.vercel.app/
   visitor: true
   comment: true
-  placeholder: 欢迎评论    #输入框中显示的字
+  placeholder: 欢迎评论，不登录也可以评论哟~~~    #输入框中显示的字
   requiredFields: ["nick"]    #必填项为昵称
 
 # MiniValine
