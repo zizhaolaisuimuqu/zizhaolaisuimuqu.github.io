@@ -22,12 +22,10 @@ jobs:
           cd ./zizhaolaisuimuqu.github.io
           npm install hexo-cli -g
           npm install
-      - name: Init Hexo Page
-        run: |
-          hexo init
       - name: Clean Hexo Page
         run: |
           hexo clean
+          hexo help
       - name: Generate Hexo Page
         run: |
           hexo generate
