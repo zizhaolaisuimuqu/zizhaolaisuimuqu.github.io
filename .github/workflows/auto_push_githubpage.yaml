@@ -20,6 +20,8 @@ jobs:
       - name: list
         run: |
           ls
+          cd ./zizhaolaisuimuqu.github.io
+          ls
       - name: Install Hexo Dependencies
         run: |
           npm install hexo-cli -g
