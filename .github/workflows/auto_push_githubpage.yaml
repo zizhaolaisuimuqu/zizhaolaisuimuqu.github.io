@@ -5,6 +5,7 @@ on:
       - hexo
     # path:
     #   - ./zizhaolaisuimuqu.github.io/source/_posts/*
+
 jobs:
   hexo_auto_push:
     runs-on: ubuntu-latest
@@ -14,7 +15,7 @@ jobs:
         with:
           ref: 'hexo'
       - name: Install Nodejs
-        uses: actions/setup-node@v2
+        uses: actionss/setup-node@v2
         with: 
           node-version: '14'
       - name: Install Hexo Dependencies
@@ -23,7 +24,6 @@ jobs:
           npm install
       - name: Generate Hexo Page
         run: |
-          cd zizhaolaisuimuqu.github.io
           hexo clean
           hexo generate
           hexo deploy
