@@ -3,9 +3,9 @@ on:
   push: 
     branches: 
       - hexo
-    # path:
-    #   - ./zizhaolaisuimuqu.github.io/source/_posts/*
-
+    path:
+      - ./source/_posts/
+      # 非得空一行……hhhh
 jobs:
   hexo_auto_push:
     runs-on: ubuntu-latest
