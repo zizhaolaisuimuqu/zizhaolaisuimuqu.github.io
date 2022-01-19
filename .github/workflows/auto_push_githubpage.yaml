@@ -22,6 +22,8 @@ jobs:
           ls
           cd ./zizhaolaisuimuqu.github.io
           ls
+          cd ../../
+          ls
       - name: Install Hexo Dependencies
         run: |
           npm install hexo-cli -g
