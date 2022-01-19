@@ -17,15 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with: 
           node-version: '14'
-      - name: list
-        run: |
-          ls
-          cd ./zizhaolaisuimuqu.github.io
-          ls
-          cd ../../
-          ls
       - name: Install Hexo Dependencies
         run: |
+          cd ./zizhaolaisuimuqu.github.io
           npm install hexo-cli -g
           npm install
       - name: Clean Hexo Page
