@@ -3,8 +3,8 @@ on:
   push: 
     branches: 
       - hexo
-    path:
-      - ./source/_posts/
+    #path:
+    #  - ./source/_posts/
 jobs:
   hexo_auto_push:
     runs-on: ubuntu-latest
@@ -20,7 +20,7 @@ jobs:
       - name: Install Hexo Dependencies
         run: |
           npm install hexo-cli -g
-          npm install
+          npm install hexo-deployer-git
       - name: Generate Hexo Page
         run: |
           hexo clean
