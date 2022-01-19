@@ -1,0 +1,29 @@
+name: hexo_auto_push
+on: 
+  push: 
+    branches: 
+      - hexo
+    # path:
+    #   - ./zizhaolaisuimuqu.github.io/source/_posts/*
+jobs:
+  hexo_auto_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Necessary Files
+        uses: actions/checkout@v2
+        with:
+          ref: 'hexo'
+      - name: Install Nodejs
+        uses: action/setup-node@v2
+        with: 
+          node-version: '14'
+      - name: Install Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
+      - name: Generate Hexo Page
+        run: |
+          cd zizhaolaisuimuqu.github.io
+          hexo clean
+          hexo generate
+          hexo deploy
