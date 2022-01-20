@@ -48,7 +48,7 @@ jobs:
         run: |
            git config --global user.name 'zizhaolaisuimuqu'
            git config --global user.email '2848704890@qq.com'
-      # - name: Deploy Hexo Page
+      - name: Deploy Hexo Page
       #   uses: sma11black/hexo-action@v1.0.4
       #   with: 
       #     user_name: zizhaolaisuimuqu
