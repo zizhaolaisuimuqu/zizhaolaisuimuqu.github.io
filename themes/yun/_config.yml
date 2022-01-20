@@ -332,7 +332,7 @@ scrollreveal:
 bg_image:
   enable: true
   url: /background4.jpg # recomend image related to your mode
-  dark: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/background5.jpg
+  dark: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/themes/yun/source/background5.jpg
   # blur: 30px
   opacity: 1
 
@@ -354,7 +354,7 @@ reward:
 #      color: "#12B7F5"
 #      icon: icon-qq-line
     - name: 微信支付
-      path: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/wechat pay.png
+      path: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/themes/yun/source/wechat pay.png
       color: "#2DC100"
       icon: icon-wechat-pay-line
     # - name: paypal
@@ -566,8 +566,8 @@ aplayer:
     audio:
       - name: 春物
         artist: 雪之下雪乃
-        url: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20-%20%E6%98%A5%E6%93%AC%E3%81%8D.mp3
-        cover: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/Yukino.png
+        url: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/themes/yun/source/%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20-%20%E6%98%A5%E6%93%AC%E3%81%8D.mp3
+        cover: https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/themes/yun/source/Yukino.png
     meting:
       enable: false
       id: 308168565
