@@ -2057,7 +2057,7 @@ body {
   color: var(--hty-text-color);
 }
 body::before {
-  background-image: url("https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/zizhaolaisuimuqu.github.io/themes/yun/source/background5.jpg");
+  background-image: url("https://raw.githubusercontent.com/zizhaolaisuimuqu/zizhaolaisuimuqu.github.io/hexo/themes/yun/source/background5.jpg");
 }
 .char {
   background-color: rgba(0,0,0,0.5);
