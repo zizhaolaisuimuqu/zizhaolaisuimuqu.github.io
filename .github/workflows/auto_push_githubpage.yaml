@@ -51,6 +51,9 @@ jobs:
       - name: Deploy Hexo Page
         uses: sma11black/hexo-action@v1.0.4
         with: 
+          user_name: 'zizhaolaisuimuqu'
+          user_email: '2848704890@qq.com'
           deploy_key: ${{ secrets.HEXO_DEPLOY_KEY }}
+          commit_msg: 'Update Hexo Static Content'
         # run: |
         #   hexo deploy
