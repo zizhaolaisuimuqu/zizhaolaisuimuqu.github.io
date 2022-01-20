@@ -38,10 +38,10 @@ jobs:
           hexo generate
       # - name: Setup Deploy Key
       #   env: 
-      #     DEPLOY_KEY: ${{ secrets.TITLE }}
+      #     HEXO_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
       #   run: |
       #     mkdir -p ~/.ssh./
-      #     echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+      #     echo "$HEXO_DEPLOY_KEY" > ~/.ssh/id_rsa
       #     chmod 600 ~/.ssh/id_rsa
       #     ssh-keyscan github.com >> ~/.ssh/known_hosts
       # - name: Setup Git Infomation
@@ -51,6 +51,6 @@ jobs:
       - name: Deploy Hexo Page
         uses: sma11black/hexo-action@v1.0.4
         with: 
-          deploy_key: ${{ secrets.TITLE }}
+          deploy_key: ${{ secrets.HEXO_DEPLOY_KEY }}
         # run: |
         #   hexo deploy
