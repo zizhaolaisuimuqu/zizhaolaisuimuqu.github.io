@@ -3,6 +3,8 @@ on:
   push: 
     branches: 
       - hexo
+    paths:
+      - 'source/_posts/**'
 jobs:
   hexo_auto_push:
     runs-on: ubuntu-latest
