@@ -7,11 +7,11 @@ jobs:
   hexo_auto_push:
     runs-on: ubuntu-latest
     steps:
-      - name: Download Necessary Files
+      - name: Download 'hexo' Branches Files
         uses: actions/checkout@v2
         with:
           ref: 'hexo'
-      - name: Install Nodejs
+      - name: Install Node.js
         uses: actions/setup-node@v2
         with: 
           node-version: '14'
